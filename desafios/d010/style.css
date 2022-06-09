@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: Idroid;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    margin: 0px;
+    padding: 0px ;
+
+}
+
+:root {
+    --cor0: #e9dcc5;
+    --cor1: #E1BD7C;
+    --cor2: #DBA137;
+    --cor3: #A87C2A;
+    --cor4: #5C4317;
+    --cor5: #3d3422;
+    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte1: 'Bebas Neue', cursive;
+    --fonte2: 'Idroid', sans-serif;
+    --len0: 800px;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+body {
+    background-color: var(--cor0);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    min-height: 150px;
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.479);
+}
+
+header > h1 {
+    text-decoration: none;
+    font-weight: normal;
+    color: white;
+    font-family: var(--fonte1);
+    font-size: 3em;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+    
+}
+
+header > p {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+    max-width: 500px;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+nav {
+    padding: 5px 5px;
+}
+
+nav > a {
+    text-align: left;
+    text-decoration: none;
+    color: var(--cor1);
+    font-weight: bold;
+    padding: 10px 10px;
+    transition-duration: .5s;
+    font-size: 1.2em;
+}
+
+nav > a:hover {
+    background-color: var(--cor1);
+    border-radius: 5px;
+    color: var(--cor4);
+    font-size: 1.2em;
+}
+
+main {
+    max-width: 800px;
+    min-width: 280px;
+ 
+    background-color: white;
+    padding: 1px 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.479);
+    border-radius: 0px 0px 10px 10px;
+}
+
+article > h2 {
+    font-family: Idroid, sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    color: var(--cor4);
+
+}
+
+article > h3 {
+    font-family: Idroid, sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 1.3em;
+    color: var(--cor4);
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    padding: 0px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.grande {
+    width: 100%;
+}
+
+.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    
+}
+
+div.video {
+    position: relative;
+    background-color: var(--cor4);
+    height: 0px;
+    margin: 20px -10px 30px -10px;
+    padding-bottom: 55%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    background-color: var(--cor1);
+    border-radius: 10px 10px 10px 10px;
+    margin: auto;
+    padding-bottom: 10px;
+
+}
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+    padding: 5px 15px;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+abbr:hover {
+    font-weight: bold;
+}
+
+main > article > aside > h4 {
+    background-color: var(--cor4);
+    padding: 10px 20px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+
+main > article > aside > p {
+    padding: 0px 10px;
+    
+}
+
+footer {
+    background-color: var(--cor4);
+    padding: 5px 0px;
+    text-align: center;
+    color: var(--cor0);
+}
+
+strong {
+    color: var(--cor5);
+}
+
+strong.footer {
+    color: var(--cor0);
+}
+
+a.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    background-image: linear-gradient(to left, transparent, var(--cor2) );
+}
+
+a.link:hover {
+    text-decoration: underline;
+    color: var(--cor4);
+}
+
+a.footer {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor0);
+}
+a.footer:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor2);
+}
+
+
