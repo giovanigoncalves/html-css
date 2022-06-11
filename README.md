@@ -20,3 +20,5 @@ Veja os desafios que resolvi:
 <a href="https://giovanigoncalves.github.io/html-css/desafios/d009/index.html">Executar desafio 09</a>
 
 <a href="https://giovanigoncalves.github.io/html-css/desafios/d010/index.html">Executar desafio 10</a>
+
+<a href="https://giovanigoncalves.github.io/html-css/desafios/d012/index.html">Executar desafio 12</a>
